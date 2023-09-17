@@ -2,13 +2,18 @@
   "name": "kafka",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "author": "abin",
   "license": "ISC",
   "dependencies": {
-    "kafkajs": "^2.2.4"
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.0.1"
   }
 }
