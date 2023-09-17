@@ -24,7 +24,7 @@ Kafka's architecture is based on distributed publish-subscribe(pub-sub) messagin
 
   - Start Kafka Container, expose PORT 9092 and setup ENV variables.
 
-  <!-- to get KAFKA_ZOOKEEPER_CONNECT privete ip (in which zookeeper is running) -->
+  // to get KAFKA_ZOOKEEPER_CONNECT privete ip (in which zookeeper is running)
 
   ```
     docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <zookeeper container id>
