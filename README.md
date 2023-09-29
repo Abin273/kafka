@@ -8,11 +8,12 @@ Kafka's architecture is based on distributed publish-subscribe(pub-sub) messagin
 
  ZooKeeper used to be like a supervisor for Kafka, making sure everything runs smoothly,
 
- <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993761/kafka/1_mlpnba.png" width="900">
-
+ <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993761/kafka/1_mlpnba.png" width="900"><br>
  <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993762/kafka/2_mhqujj.png" width="900"><br>
  <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993762/kafka/3_lblt61.png" width="900"><br>
  <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993763/kafka/4_hxtokd.png" width="900"><br>
+ its a replica set. Read/write operations are performed on leader. then changes are replicated to other followers.
+ 
  <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993764/kafka/5_h0zrh2.png" width="900"><br>
  <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993763/kafka/6_a5ontc.png" width="900"><br>
 
