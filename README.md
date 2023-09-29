@@ -1,11 +1,20 @@
-Apache Kafka is a framework implementation of a event bus using stream-processing.
+## Apache Kafka example
 
+Apache Kafka is a framework implementation of a event bus using stream-processing.
 
 Kafka in microservices is a messaging platform that enables different microservices to communicate and share data in a scalable and casually connected manner( not tightly ie,it is more flexible and informal, allowing services to interact as needed without strict constraints), facilitating real-time data flow between services.
 
 Kafka's architecture is based on distributed publish-subscribe(pub-sub) messaging, where producers send messages to topics, which are divided into partitions and managed by brokers, with consumers subscribing to and reading messages from these partitions.
 
  ZooKeeper used to be like a supervisor for Kafka, making sure everything runs smoothly,
+
+ <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993761/kafka/1_mlpnba.png" width="900">
+
+ <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993762/kafka/2_mhqujj.png" width="900"><br>
+ <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993762/kafka/3_lblt61.png" width="900"><br>
+ <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993763/kafka/4_hxtokd.png" width="900"><br>
+ <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993764/kafka/5_h0zrh2.png" width="900"><br>
+ <img src="https://res.cloudinary.com/dn8sdjsfn/image/upload/v1695993763/kafka/6_a5ontc.png" width="900"><br>
 
 3 Main Entities:
   - Topic: Space where data is produces and consumed.
